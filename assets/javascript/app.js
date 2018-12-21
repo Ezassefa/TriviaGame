@@ -28,7 +28,7 @@ var questions = [{
 },
 {
     ques: "Who is the most annoying character in the whole Star Wars universe?",
-    ans: ["Jar-Jar Binks", "w", "d", "s"],
+    ans: ["Jar-Jar Binks", "Jar-Jar Binks", "Jar-Jar Binks", "Jar-Jar Binks"],
     name: "annoying",
     correct: "Jar-Jar Binks",
     divClass: ".annoying"
