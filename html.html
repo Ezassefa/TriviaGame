@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Star Wars Trivia Game</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+   <link rel="stylesheet" type="text/css" href="assets/css/style.css"> 
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+   
+</head>
+
+<body>
+    <div>
+            <h3>Welcome to Star Wars Trivia!</h3>
+            <hr />
+            <p>Answer as many of the five questions as you can in 30 seconds.</p>
+            <br />
+            <p>Click below to Start</p>
+            <button type="button" id="startbutton">May the force be with you.</button>
+    </div>
+
+  
+
+
+    <div id="timesUp">
+        <div class="wrongBox">
+            <h2 class="up">Times Up!</h2>
+            <hr />
+            <p>Your Score:</p>
+            <p id="correctTimesUp">Correct Answers: </p>
+            <p id="wrongTimesUp">Incorrect Answers: </p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row timeRemain">Time Remaining:
+            <div id="time-remain">30</div>
+        </div>
+
+        <div class="questions">
+            <button type="button" class="btn btn-primary black-background white" id="submit">Submit</button>
+            
+        </div>
+
+      
+    </div>
+    <script src="assets/javascript/app.js "></script>
+</body>
+
+</html>
