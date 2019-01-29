@@ -1,4 +1,4 @@
-# TriviaGame
+
 HW Assignment 5
 
 The main two problems I had were having the pages load when I wanted them. I did not want Times Up to always 
